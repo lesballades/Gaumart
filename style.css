@@ -1,0 +1,113 @@
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	 margin: 0;
+	 padding: 0;
+}
+
+[class*="col-"]{
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 2px solid grey;
+}
+
+body {
+width:100%;
+}
+
+.logo{
+    padding-right: 1%;
+    padding-left: 1%;
+    text-align: center;
+    background-image: url(img/logo_gaumart.png);
+    
+}
+
+img{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+#conteneur{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar{
+    align-content: space-around;
+    display: table;
+    border-bottom: grey 2px solid;
+    justify-content: space-around;
+}
+
+.row02{ 
+    color:black;
+    width:100%; 
+    text-align: center;
+    font-family :Myriad Pro Bold;
+    font-size: 24px;
+   
+}
+
+.row02 div{
+    
+}
+
+.row02 a{
+    font-size: 36px;
+}
+
+#text{
+    float: left;
+    width: 32%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+#img1{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#img2{
+    padding: 0; height: 750px; width: 400px; 
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#img3{
+    margin-right: 0px;
+}
+
+#conteneur1{
+    height: 580px;
+    width:850px ;
+    align-items: stretch;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#conteneur1{
+  position : fixed;
+  left : 23%;
+}
+
+#element1{
+    float: left;
+    max-height: 70%;
+    max-width: 200px;
+}
+
+#pied{
+    align-self: flex-end;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

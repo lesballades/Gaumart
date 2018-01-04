@@ -1,0 +1,16 @@
+#conteneur{
+    height: 600px;
+    width:850px ;
+    align-items: stretch;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+img{
+    float: left;
+    max-height: 70%;
+    max-width: 200px;
+}
